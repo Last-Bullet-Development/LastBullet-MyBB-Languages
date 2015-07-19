@@ -5,12 +5,12 @@
  *
  */
 
-$l['nav_announcements'] = "Forum Announcement";
-$l['announcements'] = "Announcement";
-$l['forum_announcement'] = "Forum Announcement: {1}";
-$l['error_invalidannouncement'] = "The announcement specified is invalid.";
+$l['nav_announcements'] = "포럼공지";
+$l['announcements'] = "공지";
+$l['forum_announcement'] = "포럼공지: {1}";
+$l['error_invalidannouncement'] = "명시된 공지가 잘못되었습니다.";
 
-$l['announcement_edit'] = "Edit this announcement";
-$l['announcement_qdelete'] = "Delete this announcement";
-$l['announcement_quickdelete_confirm'] = "Are you sure you want to delete this announcement?";
+$l['announcement_edit'] = "공지를 편집";
+$l['announcement_qdelete'] = "공지를 삭제";
+$l['announcement_quickdelete_confirm'] = "정말 이 공지를 삭제하시겠습니까?";
 
