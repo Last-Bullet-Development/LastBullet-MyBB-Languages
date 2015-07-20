@@ -8,9 +8,9 @@
 */
 
 //Desplegable List v2.0
-$l['avatarep_user_profile'] = "View Profile";
-$l['avatarep_user_messages'] = "View Messages";
-$l['avatarep_user_sendpm'] = "Send PM";
-$l['avatarep_user_sendemail'] = "Send E-mail";
-$l['avatarep_user_threads'] = "View Threads";
+$l['avatarep_user_profile'] = "프로필 보기";
+$l['avatarep_user_messages'] = "메세지 보기";
+$l['avatarep_user_sendpm'] = "비밀메세지 보내기";
+$l['avatarep_user_sendemail'] = "이메일 보내기";
+$l['avatarep_user_threads'] = "스레드 보기";
 ?>
