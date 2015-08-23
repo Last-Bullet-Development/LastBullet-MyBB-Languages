@@ -3,7 +3,7 @@
  *
  *   MyDownloads plugin (/inc/languages/english/mydownloads.php)
  *	 Author: Diogo Parrinha
- *   Copyright: © 2009-2010 Diogo Parrinha
+ *   Copyright: Â© 2009-2010 Diogo Parrinha
  *   
  *   Website: http://www.mybb-plugins.com
  *
@@ -25,7 +25,6 @@ $l['mydownloads_no_categories'] = "No categories have been found.";
 $l['mydownloads_no_sub_categories'] = "No sub categories have been found.";
 $l['mydownloads_categories'] = "Categories";
 $l['mydownloads_select_category'] = "Select a category";
-$l['mydownloads_no_permissions'] = "You don't have permissions to access this page.";
 $l['mydownloads_no_cid'] = "The category you have selected is not valid.";
 $l['mydownloads_no_did'] = "The download you have selected is not valid.";
 $l['mydownloads_no_downloads'] = "No downloads found";
@@ -92,7 +91,7 @@ $l['mydownloads_download_commented'] = "You have successfully commented this dow
 $l['mydownloads_download_commented_title'] = "Download commented";
 
 $l['mydownloads_no_did'] = "The download you have selected is not valid.";
-$l['mydownloads_no_permissions'] = "You don't have permissions to access this page.";
+$l['mydownloads_no_permissions'] = "You either don't have permissions to view this mod or it is currently set to hidden either to be reviewed or for other reasons.<br/>If this is your mod then <a href=\"index.php?action=viewgroups&gid=4\">contact an administrator</a>.";
 $l['mydownloads_no_cid'] = "The category you have selected is not valid.";
 $l['mydownloads_no_comid'] = "The comment you have selected is not valid.";
 $l['mydownloads_flood_check'] = "You are trying to post a comment too quickly after posting a previous comment. Please wait {1} more second(s)."; // copied from MyBB :P
