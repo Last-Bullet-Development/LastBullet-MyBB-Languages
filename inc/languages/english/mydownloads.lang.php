@@ -91,7 +91,7 @@ $l['mydownloads_download_commented'] = "You have successfully commented this dow
 $l['mydownloads_download_commented_title'] = "Download commented";
 
 $l['mydownloads_no_did'] = "The download you have selected is not valid.";
-$l['mydownloads_no_permissions'] = "You don't have permissions to view this mod.<br />This mod either does not exist or it was set to hidden for administrative reasons.<br/>If you are the author of this mod, you can <a href=\"http://forums.lastbullet.net/index.php?action=viewgroups&gid=4\">contact an administrator</a> for more details.";
+$l['mydownloads_no_permissions'] = "You either don't have permissions to view this mod or it was set to hidden for administrative reasons.<br/>If you are the author of this mod, you can <a href=\"http://forums.lastbullet.net/index.php?action=viewgroups&gid=4\">contact an administrator</a> for more details.";
 
 $l['mydownloads_no_cid'] = "The category you have selected is not valid.";
 $l['mydownloads_no_comid'] = "The comment you have selected is not valid.";
