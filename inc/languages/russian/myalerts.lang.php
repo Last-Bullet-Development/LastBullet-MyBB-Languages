@@ -1,32 +1,32 @@
 <?php
 $l['myalerts'] = "MyAlerts";
-$l['myalerts_pluginlibrary_missing'] = "The selected plugin could not be installed because <a href=\"http://mods.mybb.com/view/pluginlibrary\">PluginLibrary</a> is missing.";
+$l['myalerts_pluginlibrary_missing'] = "Выбранный плагин не может быть установлен, так как <a href=\"http://mods.mybb.com/view/pluginlibrary\">PluginLibrary</a> отсутсвует.";
 
-$l['setting_group_myalerts'] = "MyAlerts Settings";
-$l['setting_group_myalerts_desc'] = "Settings for the MyAlerts plugin";
-$l['setting_myalerts_perpage'] = "Alerts per page";
-$l['setting_myalerts_perpage_desc'] = "How many alerts do you wish to display on the alerts listing page? (default is 10)";
-$l['setting_myalerts_dropdown_limit'] = "Number of alerts to show in dropdown";
-$l['setting_myalerts_dropdown_limit_desc'] = "How many alerts do you wish to display in the global alerts dropdown? (default is 5)";
-$l['setting_myalerts_autorefresh'] = "MyAlerts page AJAX autorefresh";
-$l['setting_myalerts_autorefresh_desc'] = "How often (in seconds) do you wish the MyAlerts page to refresh the alerts listing via AJAX? (0 for no autorefresh)";
+$l['setting_group_myalerts'] = "Опции MyAlerts";
+$l['setting_group_myalerts_desc'] = "Настройки плагина MyAlerts";
+$l['setting_myalerts_perpage'] = "Оповещений на одну страницу";
+$l['setting_myalerts_perpage_desc'] = "Сколько оповещений Вы хотите видеть на странице оповещений? (число по умолчанию - 10)";
+$l['setting_myalerts_dropdown_limit'] = "Число оповещений в выпадающем списке";
+$l['setting_myalerts_dropdown_limit_desc'] = "Сколько всего оповещений вы хотите видеть в общем выпадающем списке?? (число по умолчанию - 5)";
+$l['setting_myalerts_autorefresh'] = "MyAlerts AJAX автообновление";
+$l['setting_myalerts_autorefresh_desc'] = "Как часто должна автообновляться страница с оповещениями AJAX? (поставьте 0 для того, чтобы отключить автообновление)";
 $l['setting_myalerts_avatar_size'] = "Avatar Dimensions";
-$l['setting_myalerts_default_avatar_desc'] = "The dimensions to use when displaying avatars in alert listings. In the form x|y. Example: 64|64.";
+$l['setting_myalerts_default_avatar_desc'] = "В каком измерении показывать аватары? В виде x|y. Пример: 64|64.";
 
-$l['myalerts_task_cleanup_ran'] = 'Read alerts over a week old were deleted successfully!';
-$l['myalerts_task_cleanup_error'] = 'Something went wrong while cleaning up the alerts...';
+$l['myalerts_task_cleanup_ran'] = 'Прочтённые оповещения (старше недели) были удалены!';
+$l['myalerts_task_cleanup_error'] = 'Оповещения не могут быть удалены...';
 
-$l['myalerts_task_title'] = 'MyAlerts Cleanup';
-$l['myalerts_task_description'] = 'A task to cleanup old read alerts. THis is required as otherwise the alerts table could swell to massive sizes.';
+$l['myalerts_task_title'] = 'Очистка MyAlerts';
+$l['myalerts_task_description'] = 'Просим Вас удалить старые оповещения.';
 
-$l['myalerts_alert_types'] = 'Alert Types';
-$l['myalerts_can_manage_alert_types'] = 'Can manage alert types?';
+$l['myalerts_alert_types'] = 'Типы оповещений';
+$l['myalerts_can_manage_alert_types'] = 'Настройка оповещений';
 
-$l['myalerts_alert_type_code'] = 'Code';
-$l['myalerts_alert_type_enabled'] = 'Enabled?';
-$l['myalerts_alert_type_can_be_user_disabled'] = 'Can be disabled by users?';
-$l['myalerts_no_alert_types'] = 'No alert types found!';
-$l['myalerts_update_alert_types'] = 'Update Alert Types';
-$l['myalerts_alert_types_updated'] = 'Alert types updated!';
+$l['myalerts_alert_type_code'] = 'Код';
+$l['myalerts_alert_type_enabled'] = 'Функция включена?';
+$l['myalerts_alert_type_can_be_user_disabled'] = 'Может ли быть показана пользователями?';
+$l['myalerts_no_alert_types'] = 'Типы оповещений не найдены!';
+$l['myalerts_update_alert_types'] = 'Обновить типы оповещений';
+$l['myalerts_alert_types_updated'] = 'Обновления типов оповещений!';
 
-$l['myalerts_upgraded'] = 'MyAlerts has been upgraded. All old user alert settings have been lost - make sure you warn your users!';
+$l['myalerts_upgraded'] = 'MyAlerts обновлён. Все настройки скинуты в состояние по умолчанию. Убедитесь в том, что не забыли предупредить пользователей!';
