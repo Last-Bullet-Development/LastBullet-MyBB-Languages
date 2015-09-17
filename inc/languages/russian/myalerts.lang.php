@@ -1,32 +1,48 @@
 <?php
-$l['myalerts'] = "MyAlerts";
-$l['myalerts_pluginlibrary_missing'] = "Выбранный плагин не может быть установлен, так как <a href=\"http://mods.mybb.com/view/pluginlibrary\">PluginLibrary</a> отсутсвует.";
+$l['myalerts'] = 'MyAlerts';
 
-$l['setting_group_myalerts'] = "Опции MyAlerts";
-$l['setting_group_myalerts_desc'] = "Настройки плагина MyAlerts";
-$l['setting_myalerts_perpage'] = "Оповещений на одну страницу";
-$l['setting_myalerts_perpage_desc'] = "Сколько оповещений Вы хотите видеть на странице оповещений? (число по умолчанию - 10)";
-$l['setting_myalerts_dropdown_limit'] = "Число оповещений в выпадающем списке";
-$l['setting_myalerts_dropdown_limit_desc'] = "Сколько всего оповещений вы хотите видеть в общем выпадающем списке?? (число по умолчанию - 5)";
-$l['setting_myalerts_autorefresh'] = "MyAlerts AJAX автообновление";
-$l['setting_myalerts_autorefresh_desc'] = "Как часто должна автообновляться страница с оповещениями AJAX? (поставьте 0 для того, чтобы отключить автообновление)";
-$l['setting_myalerts_avatar_size'] = "Avatar Dimensions";
-$l['setting_myalerts_default_avatar_desc'] = "В каком измерении показывать аватары? В виде x|y. Пример: 64|64.";
+$l['myalerts_page_title'] = 'Recent Alerts';
+$l['myalerts_page_getnew'] = 'Check for new alerts';
 
-$l['myalerts_task_cleanup_ran'] = 'Прочтённые оповещения (старше недели) были удалены!';
-$l['myalerts_task_cleanup_error'] = 'Оповещения не могут быть удалены...';
+$l['myalerts_alerts'] = 'Alerts';
 
-$l['myalerts_task_title'] = 'Очистка MyAlerts';
-$l['myalerts_task_description'] = 'Просим Вас удалить старые оповещения.';
+$l['myalerts_settings_page_title'] = 'Alert Settings';
 
-$l['myalerts_alert_types'] = 'Типы оповещений';
-$l['myalerts_can_manage_alert_types'] = 'Настройка оповещений';
+$l['myalerts_online_location_listing'] = 'Viewing Alerts';
 
-$l['myalerts_alert_type_code'] = 'Код';
-$l['myalerts_alert_type_enabled'] = 'Функция включена?';
-$l['myalerts_alert_type_can_be_user_disabled'] = 'Может ли быть показана пользователями?';
-$l['myalerts_no_alert_types'] = 'Типы оповещений не найдены!';
-$l['myalerts_update_alert_types'] = 'Обновить типы оповещений';
-$l['myalerts_alert_types_updated'] = 'Обновления типов оповещений!';
+$l['myalerts_unread_title'] = 'Unread Alerts';
 
-$l['myalerts_upgraded'] = 'MyAlerts обновлён. Все настройки скинуты в состояние по умолчанию. Убедитесь в том, что не забыли предупредить пользователей!';
+$l['myalerts_no_alerts'] = 'No alerts to display';
+$l['myalerts_rep'] = '{1} modified your reputation.';
+$l['myalerts_pm'] = '{1} sent you a new private message titled "{2}".';
+$l['myalerts_buddylist'] = '{1} added you to their buddy list.';
+$l['myalerts_quoted'] = '{1} quoted you in {2}.';
+$l['myalerts_post_threadauthor'] = '{1} replied to your thread "{2}". There may be more posts after this.';
+$l['myalerts_subscribed_thread'] = '{1} replied to your subscribed thread "{2}".';
+
+$l['myalerts_setting_rep'] = 'Receive alert for reputation?';
+$l['myalerts_setting_pm'] = 'Receive alert for Private Message (PM)?';
+$l['myalerts_setting_buddylist'] = 'Receive alert when added to buddylist?';
+$l['myalerts_setting_quoted'] = 'Receive alert when quoted in a post?';
+$l['myalerts_setting_post_threadauthor'] = 'Receive alert when somebody replies to your thread?';
+$l['myalerts_setting_subscribed_thread'] = 'Receive alert when somebody replies to one of your subscribed threads?';
+$l['myalerts_settings_save'] = 'Save Settings';
+$l['myalerts_settings_updated'] = 'Alert settings updated successfully. Redirecting back to settings page.';
+$l['myalerts_settings_updated_title'] = 'Alert Settings Updated.';
+
+$l['myalerts_delete_deleted'] = 'Alert deleted successfully.';
+$l['myalerts_delete_error'] = 'Alert cannot be deleted at this time.';
+$l['myalerts_delete_read_confirm'] = 'Really delete all read alerts? This cannot be undone!';
+$l['myalerts_delete_all_confirm'] = 'Really delete all alerts? This cannot be undone!';
+$l['myalerts_delete_mass_deleted'] = 'Alerts Deleted';
+$l['myalerts_delete_all'] = 'All alerts deleted successfully.';
+
+$l['myalerts_usercp_nav'] = 'Alerts';
+$l['myalerts_usercp_nav_alerts'] = 'View Alerts';
+$l['myalerts_usercp_nav_settings'] = 'Alert Settings';
+$l['myalerts_usercp_nav_delete_read'] = 'Delete Old Alerts';
+$l['myalerts_usercp_nav_delete_all'] = 'Delete All Alerts';
+
+$l['myalerts_error_alert_not_found'] = 'Alert not found.';
+
+$l['myalerts_delete'] = 'Delete';
